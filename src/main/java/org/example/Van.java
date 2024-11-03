@@ -40,4 +40,8 @@ public class Van {
         }
         return result;
     }
+
+    public List<Coffee> getInventory() {
+        return inventory;
+    }
 }
